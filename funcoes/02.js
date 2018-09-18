@@ -5,14 +5,12 @@
 // no parque. <pronome> encontrou
 // <objeto>. <nome> decidiu levar
 // <objeto> pra casa."
-<<<<<<< Updated upstream
 function frase(nome, pronome, objeto) {
     return `${nome} foi caminhar
         no parque. ${pronome} encontrou
         ${objeto}. ${nome} decidiu levar
         ${objeto} pra casa.`
 }
-=======
 
 function frase (bah, ela, dinheiro) {
     return `${bah} foi caminhar no parque. ${ela} encontrou ${dinheiro} . ${bah} decidiu levar ${dinheiro} pra casa.`
@@ -20,13 +18,11 @@ function frase (bah, ela, dinheiro) {
 }
 
 
->>>>>>> Stashed changes
 
 // Escreva uma função
 // em Javascript que recebe
 // um número qualquer e retorna
 // a raiz quadrada dele.
-<<<<<<< Updated upstream
 function sqrt(num) {
     if (num < 0) {
         throw "Não existe raiz quadrada de número negativo!"
@@ -39,20 +35,17 @@ function sqrt(num) {
 function sqrt(num) {
     return Math.sqrt(num)
 }
-=======
 
 function raiz (x) {
     return Math.sqrt(x) 
 }
 
 
->>>>>>> Stashed changes
 
 // Escreva uma função em
 // Javascript que recebe um
 // número qualquer e retorna
 // a representação binaria dele.
-<<<<<<< Updated upstream
 function binary(num) {
     let result = ""
     do {
@@ -75,19 +68,16 @@ function binary(num) {
 function binary(x) {
     return x.toString(2)
 }
-=======
 
 function bin (decimal){
     return decimal.toString(2)
 }
 
 
->>>>>>> Stashed changes
 
 // Escreva uma função em Javascript
 // que recebe uma lista de números
 // e retorna o maior número da lista.
-<<<<<<< Updated upstream
 function max(arr) {
     if (typeof arr !== "object") {
         throw "Por favor, forneça uma lista."
@@ -138,18 +128,15 @@ function max(arr) {
 function max(arr) {
     return Math.max.apply(null, arr)
 }
-=======
 
 function listinha (arr){
     return Math.max(...arr)
 } 
 
->>>>>>> Stashed changes
 
 // Escreva uma função em Javascript
 // que vai checar se duas ou mais strings
 // sao anagramas umas das outras.
-<<<<<<< Updated upstream
 function sortCharactersInString(str) {
     return str
         .split("")
@@ -187,11 +174,9 @@ function areAnagrams(a, b) {
 // 1 iteracao -> i = 1; arguments[1] = "celia"; "aceil" !== first ?
 // 2 iteracao -> i = 2; arguments[2] = "alcei"; "aceil" !== first ?
 // PARA
-=======
 
 function ana ()
 
->>>>>>> Stashed changes
 
 // Escreva uma função em Javascript
 // que recebe o raio de um circulo
