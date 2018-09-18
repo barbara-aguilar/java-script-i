@@ -165,7 +165,7 @@ for (let i=7; i>0; i++){
     console.log (arr.join "")
 }
 
-
+//exercícios resolvidos
 
 // Escreva um loop em Javascript
 // que printa o seguinte padrão

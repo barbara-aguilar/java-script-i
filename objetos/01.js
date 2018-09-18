@@ -177,3 +177,6 @@ function Pokemon(nome, nome_japones, pode_voar) {
 for (const key in pokemon){
     console.log(key, pokemon[key])
 }
+
+
+//exercicios resolvidos
